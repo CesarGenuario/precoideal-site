@@ -1,21 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Avaliação Veicular</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1>🔍 Avaliação Veicular</h1>
     <label for="placa">Digite a placa ou chassi:</label>
-    <input type="text" id="placa" placeholder="ABC1234 ou 9BWZZZ...">
+    <input type="text" id="placa" placeholder="ABC1234 ou 9BWZZZ..." />
     <button onclick="consultarVeiculo()">Consultar</button>
-    <div class="botoes-secundarios">
-      <button onclick="copiarResultado()">📋 Copiar Resultado</button>
-    </div>
+    <button onclick="copiarResultado()">📋 Copiar Resultado</button>
     <div id="resultado" class="resultado"></div>
   </div>
   <script src="script.js"></script>
